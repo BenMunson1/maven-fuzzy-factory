@@ -1,18 +1,10 @@
 /*
 Trend in Website Sessions and Order Volume
 ------------------------------------------------------
+
 Purpose:
 Analyze the month-over-month trend in total website sessions and total orders
 to understand overall growth patterns and user engagement over time.
-
-Tables used:
-- website_sessions
-- orders
-
-Output columns:
-- year_month
-- session_count
-- order_count
 */
 
 WITH scte AS (
