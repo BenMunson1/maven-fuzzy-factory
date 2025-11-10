@@ -27,3 +27,9 @@ SELECT year_month,
   FROM monthly_revenue
  ORDER BY year_month,
           total_revenue DESC;
+
+
+-- Interpretation:
+-- This query calculates total monthly revenue per product, then determines each product’s percentage share of that month’s total sales. 
+-- Tracking these values over time reveals which products dominate revenue, which are gaining or losing market share, and how new launches (like The Birthday Sugar Panda) 
+-- impact the overall product mix.
